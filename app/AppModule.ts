@@ -18,6 +18,7 @@ import { ComponentHeader } from './view/body/header/ComponentHeader';
 import { ComponentPage } from './view/body/page/ComponentPage';
 
 import { ComponentPageHome } from './view/body/page/pageHome/ComponentPageHome';
+import { ComponentPageLanguages } from './view/body/page/pageLanguages/ComponentPageLanguages';
 
 import { ComponentFooter } from './view/body/footer/ComponentFooter';
 
@@ -116,6 +117,7 @@ export class SafeStylePipe implements PipeTransform {
     ComponentHeader,
     ComponentPage,
     ComponentPageHome,
+    ComponentPageLanguages,
     ComponentFooter,
     ComponentMenuHorizontal,
     ComponentMenuVertical,

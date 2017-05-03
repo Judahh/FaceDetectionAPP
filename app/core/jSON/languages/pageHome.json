@@ -1,0 +1,12 @@
+[
+    {
+        "id":0,
+        "language":"English-USA",
+        "title":"Face Detection"
+    },
+    {
+        "id":1,
+        "language":"Portuguese-Brazil",
+        "title":"Detecção de Rostos"
+    }
+]

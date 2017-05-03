@@ -51,7 +51,7 @@
               "arrayItem":[
                 {
                   "id":0,
-                  "routerLink":"WhoAmI",
+                  "routerLink":"Home",
                   "routerLinkActive":"active",
                   "colorEffect":{
                     "color":"white",
@@ -69,114 +69,6 @@
                           "arrayInformation":[
                             {
                               "information":"c",
-                              "opacity":1
-                            }
-                          ]
-                      }
-                    }
-                  }
-                },
-                {
-                  "id":1,
-                  "routerLink":"Education",
-                  "routerLinkActive":"active",
-                  "colorEffect":{
-                    "color":"white",
-                    "colorEffect":"DivClassNeon",
-                    "font":{
-                      "font":"DivClassRoboto",
-                      "verticalAlign":"",
-                      "width":"",
-                      "size":15,
-                      "arrayPadding":[5],
-                      "animationEffect":{
-                          "class":"DivClassPulse",
-                          "subClass":"",
-                          "subClasses":[],
-                          "arrayInformation":[
-                            {
-                              "information":"d",
-                              "opacity":1
-                            }
-                          ]
-                      }
-                    }
-                  }
-                },
-                {
-                  "id":2,
-                  "routerLink":"Skills",
-                  "routerLinkActive":"active",
-                  "colorEffect":{
-                    "color":"white",
-                    "colorEffect":"DivClassNeon",
-                    "font":{
-                      "font":"DivClassRoboto",
-                      "verticalAlign":"",
-                      "width":"",
-                      "size":15,
-                      "arrayPadding":[5],
-                      "animationEffect":{
-                          "class":"DivClassPulse",
-                          "subClass":"",
-                          "subClasses":[],
-                          "arrayInformation":[
-                            {
-                              "information":"«",
-                              "opacity":1
-                            }
-                          ]
-                      }
-                    }
-                  }
-                },
-                {
-                  "id":3,
-                  "routerLink":"Projects",
-                  "routerLinkActive":"active",
-                  "colorEffect":{
-                    "color":"white",
-                    "colorEffect":"DivClassNeon",
-                    "font":{
-                      "font":"DivClassRoboto",
-                      "verticalAlign":"",
-                      "width":"",
-                      "size":15,
-                      "arrayPadding":[5],
-                      "animationEffect":{
-                          "class":"DivClassPulse",
-                          "subClass":"",
-                          "subClasses":[],
-                          "arrayInformation":[
-                            {
-                              "information":"i",
-                              "opacity":1
-                            }
-                          ]
-                      }
-                    }
-                  }
-                },
-                {
-                  "id":4,
-                  "routerLink":"Contact",
-                  "routerLinkActive":"active",
-                  "colorEffect":{
-                    "color":"white",
-                    "colorEffect":"DivClassNeon",
-                    "font":{
-                      "font":"DivClassRoboto",
-                      "verticalAlign":"",
-                      "width":"",
-                      "size":15,
-                      "arrayPadding":[5],
-                      "animationEffect":{
-                          "class":"DivClassPulse",
-                          "subClass":"",
-                          "subClasses":[],
-                          "arrayInformation":[
-                            {
-                              "information":"6",
                               "opacity":1
                             }
                           ]
