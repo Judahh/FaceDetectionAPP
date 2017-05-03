@@ -38,36 +38,6 @@ export class ComponentPageHome implements OnInit {
     return this.modelHomeInformation.title;
   }
 
-  name(){
-    return this.modelHomeInformation.name;
-  }
-
-  personalStatement(){
-      return (this.modelHomeInformation.personalStatementBeforeAge
-      + Utils.gregorianAge(this.modelHome.birthDate)
-      + this.modelHomeInformation.personalStatementAfterAge);
-  }
-
-  personalStatement2(){
-    return (this.modelHomeInformation.personalStatement2);
-  }
-  
-  talkingAboutMe(){
-    return this.modelHomeInformation.talkingAboutMe;
-  }
-
-  talkingAboutMe2(){
-    return this.modelHomeInformation.talkingAboutMe2;
-  }
-
-  thinkDifferentTitle(){
-    return this.modelHomeInformation.thinkDifferentTitle;
-  }
-
-  thinkDifferent(){
-    return this.modelHomeInformation.thinkDifferent;
-  }
-
   ngOnInit() {
     this.initialization();
   }
@@ -126,20 +96,7 @@ export class ComponentPageHome implements OnInit {
   private getArrayModelDivisorBlock(arrayModelDivisorBlock:Array<ModelDivisorBlock>){
     this.arrayModelDivisorBlock=arrayModelDivisorBlock;
     this.arrayModelDivisorBlock[0].divisor.arraySubDivisor[0].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.title()));
-    this.arrayModelDivisorBlock[1].divisor.arraySubDivisor[0].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.name()));
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[0].image.source = this.modelHome.myPicturePath;
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[1].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.personalStatement()));
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[1].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(" "));
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[1].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.personalStatement2()));
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[1].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(" "));
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[1].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.talkingAboutMe()));
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[1].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(" "));
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[1].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.talkingAboutMe2()));
-    this.arrayModelDivisorBlock[2].divisor.arraySubDivisor[1].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(" "));
-    this.arrayModelDivisorBlock[3].divisor.arraySubDivisor[0].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.thinkDifferentTitle()));
-    this.arrayModelDivisorBlock[4].divisor.arraySubDivisor[0].videoLink.source = this.modelHome.videoLink;
-    this.arrayModelDivisorBlock[5].divisor.arraySubDivisor[0].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(" "));
-    this.arrayModelDivisorBlock[5].divisor.arraySubDivisor[0].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.thinkDifferent()));
+    this.arrayModelDivisorBlock[1].divisor.arraySubDivisor[0].videoLink.source = this.modelHome.videoLink;
   }
 
   private getPageService(){

@@ -2,6 +2,4 @@ import { ModelSubDivisor } from './../../common/divisorBlock/divisor/subDivisor/
 
 export class ModelHome {
     videoLink:string;
-    myPicturePath:string;
-    birthDate:string;
 }

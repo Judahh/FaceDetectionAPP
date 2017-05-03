@@ -18,7 +18,7 @@ const appRoutes: Routes = [
   },
   {
     path: '**',
-    redirectTo: '/WhoAmI',
+    redirectTo: '/Home',
   }//,
   // {
   //   path: 'api/{controller}/{id?}',
