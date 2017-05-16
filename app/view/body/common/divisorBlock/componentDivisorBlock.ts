@@ -27,6 +27,55 @@ export class ComponentDivisorBlock implements OnInit {
     this.initialization();
   }
 
+  float(){
+    if(this.modelDivisorBlock.divisor==null||this.modelDivisorBlock.divisor==undefined||this.modelDivisorBlock.divisor.float==null||this.modelDivisorBlock.divisor.float==undefined||this.modelDivisorBlock.divisor.float==""){
+      return "";
+    }
+    return "float: "+this.modelDivisorBlock.divisor.float+";";
+  }
+
+  top(){
+    if(this.modelDivisorBlock.divisor==null||this.modelDivisorBlock.divisor==undefined||this.modelDivisorBlock.divisor.top==null||this.modelDivisorBlock.divisor.top==undefined||this.modelDivisorBlock.divisor.top==""){
+      return "";
+    }
+    return "top: "+this.modelDivisorBlock.divisor.top+";";
+  }
+
+  left(){
+    if(this.modelDivisorBlock.divisor==null||this.modelDivisorBlock.divisor==undefined||this.modelDivisorBlock.divisor.left==null||this.modelDivisorBlock.divisor.left==undefined||this.modelDivisorBlock.divisor.left==""){
+      return "";
+    }
+    return "left: "+this.modelDivisorBlock.divisor.left+";";
+  }
+
+  right(){
+    if(this.modelDivisorBlock.divisor==null||this.modelDivisorBlock.divisor==undefined||this.modelDivisorBlock.divisor.right==null||this.modelDivisorBlock.divisor.right==undefined||this.modelDivisorBlock.divisor.right==""){
+      return "";
+    }
+    return "right: "+this.modelDivisorBlock.divisor.right+";";
+  }
+
+  position(){
+    if(this.modelDivisorBlock.divisor==null||this.modelDivisorBlock.divisor==undefined||this.modelDivisorBlock.divisor.position==null||this.modelDivisorBlock.divisor.position==undefined||this.modelDivisorBlock.divisor.position==""){
+      return "";
+    }
+    return "position: "+this.modelDivisorBlock.divisor.position+";";
+  }
+
+  height(){
+    if(this.modelDivisorBlock.divisor==null||this.modelDivisorBlock.divisor==undefined||this.modelDivisorBlock.divisor.height==null||this.modelDivisorBlock.divisor.height==undefined||this.modelDivisorBlock.divisor.height==""){
+      return "";
+    }
+    return "height: "+this.modelDivisorBlock.divisor.height+";";
+  }
+
+  width(){
+    if(this.modelDivisorBlock.divisor==null||this.modelDivisorBlock.divisor==undefined||this.modelDivisorBlock.divisor.width==null||this.modelDivisorBlock.divisor.width==undefined||this.modelDivisorBlock.divisor.width==""){
+      return "";
+    }
+    return "width: "+this.modelDivisorBlock.divisor.width+";";
+  }
+
   display(){
     if(this.modelDivisorBlock.divisor==null||this.modelDivisorBlock.divisor==undefined){
       return "";
@@ -38,7 +87,15 @@ export class ComponentDivisorBlock implements OnInit {
   }
 
   style(){
-    return this.display();
+    return this.display()
+    + this.float()
+    + this.top()
+    + this.left()
+    + this.right()
+    + this.position()
+    + this.height()
+    + this.width()
+    + this.display();
   }
 
   constructor() {}

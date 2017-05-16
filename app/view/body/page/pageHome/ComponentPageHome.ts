@@ -95,8 +95,8 @@ export class ComponentPageHome implements OnInit {
 
   private getArrayModelDivisorBlock(arrayModelDivisorBlock:Array<ModelDivisorBlock>){
     this.arrayModelDivisorBlock=arrayModelDivisorBlock;
-    this.arrayModelDivisorBlock[0].divisor.arraySubDivisor[0].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.title()));
-    this.arrayModelDivisorBlock[1].divisor.arraySubDivisor[0].videoLink.source = this.modelHome.videoLink;
+    // this.arrayModelDivisorBlock[0].divisor.arraySubDivisor[0].item.colorEffect.font.animationEffect.arrayInformation.push(new ModelInformation(this.title()));
+    this.arrayModelDivisorBlock[0].divisor.arraySubDivisor[0].videoLink.source = this.modelHome.videoLink;
   }
 
   private getPageService(){
