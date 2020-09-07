@@ -142,7 +142,7 @@
     "mocha": "^2.5.3",
     "npm-run-all": "^2.3.0",
     "postcss-autoreset": "^1.1.5",
-    "postcss-cli": "^2.5.2",
+    "postcss-cli": "^7.1.2",
     "postcss-cssnext": "^2.7.0",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.0.0",
