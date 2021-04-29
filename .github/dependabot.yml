@@ -1,0 +1,39 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: auth0-lock
+    versions:
+    - 11.28.0
+    - 11.28.1
+    - 11.29.0
+    - 11.29.1
+  - dependency-name: electron
+    versions:
+    - 11.2.1
+    - 11.2.3
+    - 11.3.0
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 12.0.4
+  - dependency-name: karma
+    versions:
+    - 6.0.0
+    - 6.1.0
+    - 6.1.1
+    - 6.1.2
+    - 6.2.0
+    - 6.3.0
+    - 6.3.1
+  - dependency-name: jasmine-spec-reporter
+    versions:
+    - 6.0.0
+  - dependency-name: postcss-cli
+    versions:
+    - 7.1.2
